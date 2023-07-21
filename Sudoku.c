@@ -5,12 +5,13 @@
 int main(){
 
     int vetor[N][M]; 
-    int i, j;
+    int i, j, contador;
 
     srand (time(NULL));
     for (i = 0; i < 3; i++){
         for (j = 0; j < 3; j++){
-            vetor[i][j] = rand ()8+1 
+            vetor[i][j] = contador;
+            contador++;
         }
     }
     for (i = 0; i < 3; i++){
